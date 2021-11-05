@@ -6,5 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Run setup
+        run: make install
+
       - name: Run eslint
         run: make eslint
