@@ -8,3 +8,6 @@
 
 ### Brain-even terminal game
 [![asciicast](https://asciinema.org/a/KHe13cMXMgbSyFCpUQhT5noQ8.svg)](https://asciinema.org/a/KHe13cMXMgbSyFCpUQhT5noQ8)
+
+### Brain-calc terminal game
+[![asciicast](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ.svg)](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ)
