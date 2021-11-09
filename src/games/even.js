@@ -7,7 +7,7 @@ const getCorrectAnswer = (number) => (isEven(number) ? 'yes' : 'no');
 const makeQuestion = () => {
   const value = getRandomNumber();
   const correctAnswer = getCorrectAnswer(value);
-  return [`Question: ${value}`, correctAnswer];
+  return [value, correctAnswer];
 };
 
 const evenGame = () => game(gameConditions, makeQuestion);

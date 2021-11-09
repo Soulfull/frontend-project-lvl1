@@ -20,7 +20,7 @@ const startGame = (gameConditions, makeQuestion) => {
       return printWinGame(userName);
     }
     const [question, correctAnswer] = makeQuestion();
-    askQuestion(question);
+    askQuestion(`Question: ${question}`);
     const userAnswer = waitUserAnswerSync();
 
     if (userAnswer !== correctAnswer) {
