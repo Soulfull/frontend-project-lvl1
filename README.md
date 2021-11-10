@@ -11,3 +11,6 @@
 
 ### Brain-calc terminal game
 [![asciicast](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ.svg)](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ)
+
+### Brain-gcd terminal game
+[![asciicast](https://asciinema.org/a/wCDn5kcmfPAWQtr8tMCgDguAy.svg)](https://asciinema.org/a/wCDn5kcmfPAWQtr8tMCgDguAy)
