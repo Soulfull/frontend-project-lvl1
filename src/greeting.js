@@ -1,4 +1,4 @@
-import { getUserInputSync, print } from './gameUtils.js';
+import { getUserInputSync, print } from './utils.js';
 
 const greeting = () => {
   print('Welcome to the Brain Games!');

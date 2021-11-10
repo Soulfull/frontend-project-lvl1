@@ -1,5 +1,5 @@
-import game from '../game.js';
-import { getRandomNumber } from '../gameUtils.js';
+import createGame from '../createGame.js';
+import { getRandomNumber } from '../utils.js';
 
 const gameConditions = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (num) => num % 2 === 0;
@@ -10,6 +10,4 @@ const makeQuestion = () => {
   return [value, correctAnswer];
 };
 
-const evenGame = () => game(gameConditions, makeQuestion);
-
-export default evenGame;
+export default createGame(gameConditions, makeQuestion);

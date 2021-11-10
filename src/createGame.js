@@ -1,4 +1,4 @@
-import { print, getUserInputSync } from './gameUtils.js';
+import { print, getUserInputSync } from './utils.js';
 import greeting from './greeting.js';
 
 const GAME_ROUNDS_LENGTH = 3;
@@ -10,7 +10,7 @@ const printLooseGame = (userAnswer, correctAnswer, name) => print(`'${userAnswer
 Let's try again, ${name}!`);
 const waitUserAnswerSync = () => getUserInputSync('Your answer: ');
 
-const startGame = (gameConditions, makeQuestion) => {
+const createGame = (gameConditions, makeQuestion) => () => {
   const userName = greeting();
 
   print(gameConditions);
@@ -33,4 +33,4 @@ const startGame = (gameConditions, makeQuestion) => {
   startGameRound(1);
 };
 
-export default startGame;
+export default createGame;
