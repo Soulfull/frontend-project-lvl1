@@ -5,7 +5,7 @@ const GAME_ROUNDS_LENGTH = 3;
 
 const askQuestion = (question) => print(question);
 const printGoodVerdict = () => print('Correct!');
-const printWinGame = (name) => print(`Congratulations, ${name}`);
+const printWinGame = (name) => print(`Congratulations, ${name}!`);
 const printLooseGame = (userAnswer, correctAnswer, name) => print(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
 Let's try again, ${name}!`);
 const waitUserAnswerSync = () => getUserInputSync('Your answer: ');
