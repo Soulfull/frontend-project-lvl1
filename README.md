@@ -6,7 +6,7 @@
 
 Проект реализует пять консольных игр, формата вопрос-ответ.
 
-## Требования:
+## Требования
 - Node версии 13 и выше
 
 ## Установка
@@ -21,7 +21,7 @@
 - `brain-progression` - игра "разгадай последовательность"
 
 
-## Примеры игр:
+## Примеры игр
 
 ### Калькулятор
 [![asciicast](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ.svg)](https://asciinema.org/a/lHB9WGvFiYXE9kctFeA9G3NYJ)
