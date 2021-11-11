@@ -17,3 +17,6 @@
 
 ### Brain-progression terminal game
 [![asciicast](https://asciinema.org/a/q3Jp1oC1iiNcMNwT8IGWtwu9U.svg)](https://asciinema.org/a/q3Jp1oC1iiNcMNwT8IGWtwu9U)
+
+### Brain-prime terminal game
+[![asciicast](https://asciinema.org/a/UlMY2XXovVphI6SKSOpcurShp.svg)](https://asciinema.org/a/UlMY2XXovVphI6SKSOpcurShp)
