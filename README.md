@@ -14,3 +14,6 @@
 
 ### Brain-gcd terminal game
 [![asciicast](https://asciinema.org/a/wCDn5kcmfPAWQtr8tMCgDguAy.svg)](https://asciinema.org/a/wCDn5kcmfPAWQtr8tMCgDguAy)
+
+### Brain-progression terminal game
+[![asciicast](https://asciinema.org/a/q3Jp1oC1iiNcMNwT8IGWtwu9U.svg)](https://asciinema.org/a/q3Jp1oC1iiNcMNwT8IGWtwu9U)
