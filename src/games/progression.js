@@ -17,17 +17,19 @@ const extractMember = (sequence) => {
   const result = [...sequence];
   const extractedMember = result[index];
   result[index] = '..';
-  return [result.join(' '), extractedMember];
+  return [result, extractedMember];
 };
 
 const gameConditions = 'What number is missing in the progression?';
 const makeQuestion = () => {
-  const start = getRandomNumber();
-  const len = getRandomNumInRange(5, 20);
-  const step = getRandomNumInRange(1, 10);
-  const sequence = createSequence(start, len, step);
-  const [value, correctAnswer] = extractMember(sequence);
-  return [value, String(correctAnswer)];
+  const sequenceStart = getRandomNumber();
+  const sequenceLength = getRandomNumInRange(5, 20);
+  const sequenceStep = getRandomNumInRange(1, 10);
+  const sequence = createSequence(sequenceStart, sequenceLength, sequenceStep);
+  const [exstractedSequence, exstractedMember] = extractMember(sequence);
+  const questionValue = exstractedSequence.join(' ');
+  const correctAnswer = String(exstractedMember);
+  return [questionValue, correctAnswer];
 };
 
 export default createGame(gameConditions, makeQuestion);

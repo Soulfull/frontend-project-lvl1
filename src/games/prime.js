@@ -9,13 +9,12 @@ const isPrime = (num) => {
       return false;
     }
   }
-
   return true;
 };
 const makeQuestion = () => {
-  const value = getRandomNumInRange(2, 100);
-  const correctAnswer = isPrime(value) ? 'yes' : 'no';
-  return [value, correctAnswer];
+  const questionValue = getRandomNumInRange(2, 100);
+  const correctAnswer = isPrime(questionValue) ? 'yes' : 'no';
+  return [questionValue, correctAnswer];
 };
 
 export default createGame(gameConditions, makeQuestion);

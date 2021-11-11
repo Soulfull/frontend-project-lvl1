@@ -12,9 +12,9 @@ const gameConditions = 'Find the greatest common divisor of given numbers.';
 const makeQuestion = () => {
   const num1 = getRandomNumber();
   const num2 = getRandomNumber();
-  const value = `${num1} ${num2}`;
-  const correctAnswer = findGreaterDivider(num1, num2);
-  return [value, String(correctAnswer)];
+  const questionValue = `${num1} ${num2}`;
+  const correctAnswer = String(findGreaterDivider(num1, num2));
+  return [questionValue, correctAnswer];
 };
 
 export default createGame(gameConditions, makeQuestion);
