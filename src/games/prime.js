@@ -1,4 +1,3 @@
-import fs from 'fs';
 import createGame from '../createGame.js';
 import { getRandomNumInRange } from '../utils.js';
 
@@ -16,7 +15,6 @@ const isPrime = (num) => {
 const makeQuestion = () => {
   const value = getRandomNumInRange(2, 100);
   const correctAnswer = isPrime(value) ? 'yes' : 'no';
-  fs.writeFileSync('text.log', correctAnswer);
   return [value, correctAnswer];
 };
 
