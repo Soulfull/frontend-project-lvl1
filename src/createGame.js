@@ -12,9 +12,6 @@ const waitUserAnswerSync = () => getUserInputSync('Your answer: ');
 
 const createGame = (gameConditions, makeQuestion) => () => {
   const userName = greeting();
-
-  print(gameConditions);
-
   const startGameRound = (currentRound) => {
     if (currentRound > GAME_ROUNDS_LENGTH) {
       return printWinGame(userName);
@@ -30,6 +27,7 @@ const createGame = (gameConditions, makeQuestion) => () => {
     return startGameRound(currentRound + 1);
   };
 
+  print(gameConditions);
   startGameRound(1);
 };
 
